@@ -1,4 +1,6 @@
+
 ram.h
+
 
 class Ram {
     char mem[100 * 1024]; 
@@ -9,7 +11,15 @@ public:
     char read(int address);   
     void write(int address, char value); 
 };
+
+
+
+
 ram.cpp
+
+
+
+
 
 #include<iostream>
 #include<memory.h>
@@ -31,7 +41,14 @@ char Ram::read(int address){
 void Ram::write(int address, char value){
     mem[address] = value;
 }
+
+
+
+
 main.cpp
+
+
+
 
 #include<iostream>
 using namespace std;
