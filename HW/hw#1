@@ -64,4 +64,4 @@ int main() {
     cout << "102 번지의 값 = " << (int)ram.read(102) << endl; // 102 번지 값 출력 
 }
 
-// g++ -o exec main.cpp Ram.cpp
+
